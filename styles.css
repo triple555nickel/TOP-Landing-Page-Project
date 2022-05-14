@@ -11,7 +11,6 @@
 .firstbody {
     display: flex;
     flex: 1;
-    background-color: rgb(0, 1, 54);
     color: white;
 }
 
@@ -52,7 +51,7 @@ ul {
     align-items: center;
     padding: 220px;
     margin-top: -190px;
-    background-color: rgb(0, 1, 54);
+    background-color: #1f2937;
 }
 
 .left {
@@ -63,7 +62,7 @@ ul {
     width: 510px;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(0, 1, 54);
+    background-color: #1f2937;
 }
 
 .intro-header {
@@ -172,9 +171,49 @@ ul {
 }
 
 .fourthbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 
 }
 
-.footer {
+.primary {
+    display: flex;
+    background-color: rgb(28, 107, 255);
+    color: antiquewhite;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
 
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Calltoaction, .signuptext {
+    padding: 5px;
+}
+
+.Calltoaction {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sign-uptwo {
+    margin-left: 250px;
+    background-color: rgb(28, 107, 255);
+    color: white;
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1f2937;
 }
