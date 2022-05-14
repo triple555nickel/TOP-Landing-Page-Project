@@ -110,6 +110,20 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 25px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.caption {
+    display: block;
+    width: 150px;
+    text-align: center;
 }
 
 .thirdbody {
