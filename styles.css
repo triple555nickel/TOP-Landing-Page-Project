@@ -146,8 +146,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-
+    background-color: rgb(194, 194, 194);
     padding: 120px;
    
 }
@@ -156,12 +155,19 @@ ul {
     justify-content: center;
     align-items: center;
     font-size: 19px;
-    width: 600px;
+    width: 435px;
+    font-style: italic;
 
 }
 
 .Thor {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bolder;
+    width: 415px;
+    margin-top: -14px;
+    font-size: 14px;
 
 }
 
