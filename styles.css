@@ -3,16 +3,23 @@
 
 .headercontainer {
     display: flex;
+    background-color: rgb(143, 143, 143);
 }
 
 .header {
     display: flex;
+    flex: 1;
+    background-color: aliceblue;
+    margin-left: 20px;
 }
 
 .headerlinks {
     display: flex;
+    background-color: aqua;
+    width: 300px;
+    flex: 1;
     font-size: small;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .firstbody {
