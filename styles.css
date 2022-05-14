@@ -1,9 +1,12 @@
 * {
-    background-color: black;
 }
 
 .header {
+    displays: flex;
+}
 
+.headerlinks {
+    display: flex;
 }
 
 .firstbody {
