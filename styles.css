@@ -36,11 +36,16 @@ ul {
 }
 
 .firstbody {
+    display: flex;
+    justify-content: space-between
 }
 
 .left {
     display: flex;
     flex-direction: column;
+    padding: 35px;
+    margin-left: 65px;
+    justify-content: space-evenly;
 }
 
 .intro-header {
@@ -48,12 +53,14 @@ ul {
 }
 
 
-.placeholder {
-
+.right {
+    margin-right: 65px;
+    padding: 20px;   
 }
 
-.sign-up {
 
+.sign-up {
+    width: fit-content;
 }
 
 .secondbody {
