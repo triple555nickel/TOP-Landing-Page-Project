@@ -73,7 +73,9 @@ ul {
 }
 
 .firstp {
-    width: 400px;
+    color: rgb(182, 182, 182);
+    font-size: 21px;
+    width: 500px;
 }
 
 
@@ -82,6 +84,13 @@ ul {
     justify-content: flex-end;
     flex: 1;
    }
+
+.byebyefishy {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 700px;
+}
 
 .sign-up {
     width: fit-content;
@@ -133,6 +142,26 @@ ul {
 }
 
 .thirdbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+
+    padding: 120px;
+   
+}
+
+.paragraph {
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    width: 600px;
+
+}
+
+.Thor {
+    display: flex;
 
 }
 
