@@ -4,12 +4,13 @@
 
 .first-container {
     justify-content: center;
-    background-color: black;
+    flex: 1;
   }
 
 .headercontainer,
 .firstbody {
     display: flex;
+    flex: 1;
     background-color: rgb(0, 1, 54);
     color: white;
 }
@@ -46,6 +47,7 @@ ul {
 
 .firstbody {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     padding: 220px;
@@ -77,7 +79,8 @@ ul {
 
 .right {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    flex: 1;
    }
 
 .tech-img {
@@ -96,7 +99,15 @@ ul {
 }
 
 .secondbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.no-grandma {
+    display: flex;
+    flex-direction: row;
 }
 
 .thirdbody {
