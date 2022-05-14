@@ -1,12 +1,18 @@
 * {
 }
 
+.headercontainer {
+    display: flex;
+}
+
 .header {
-    displays: flex;
+    display: flex;
 }
 
 .headerlinks {
     display: flex;
+    font-size: small;
+    justify-content: space-around;
 }
 
 .firstbody {
