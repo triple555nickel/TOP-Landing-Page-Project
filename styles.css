@@ -2,6 +2,10 @@
     font-family: sans-serif;
 }
 
+.first-container {
+    justify-content: center;
+}
+
 .headercontainer,
 .firstbody {
     display: flex;
@@ -37,25 +41,29 @@ ul {
 
 .firstbody {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 100px;
 }
 
 .left {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     flex-direction: column;
-    padding: 35px;
-    margin-left: 65px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .intro-header {
-    
+    font-size: 45px;
+    width: 480px;    
+}
+
+.firstp {
+    width: 300px;
 }
 
 
 .right {
-    margin-right: 65px;
-    padding: 20px;   
 }
 
 
